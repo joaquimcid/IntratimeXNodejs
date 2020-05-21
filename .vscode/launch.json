@@ -7,7 +7,21 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch intratime-proxy",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}\\intratime-proxy\\index.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch express-demo",
       "runtimeExecutable": "nodemon",
       "skipFiles": [
         "<node_internals>/**"
