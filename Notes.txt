@@ -1,0 +1,7 @@
+
+
+ nodemon:  no cal reiniciar node per cada canvi fet al codi.
+
+Instalar nodemon: npm i -g nodemon 
+
+despres executar nodemon index.html
