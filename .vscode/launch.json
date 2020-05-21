@@ -8,10 +8,12 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
+      "runtimeExecutable": "nodemon",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\express-demo\\index.js"
+      "program": "${workspaceFolder}\\express-demo\\index.js",
+      "restart": true,
     }
   ]
 }
